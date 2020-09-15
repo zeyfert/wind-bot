@@ -20,6 +20,7 @@ def main():
     open_weather_token = string('Please enter a token for OpenWeather API ')
     city = string('Please enter a city ')
     openweather_parcer = OpenWeatherApi(city, open_weather_token)
+    print('Successfully')
     new_offset = None
     while True:
         new_messages = telegram_bot.get_updates(new_offset)
