@@ -21,4 +21,14 @@ How to install:
  ```
  [![asciicast](https://asciinema.org/a/VJ4yE3kfh9rW1z4roWvYpiznG.svg)](https://asciinema.org/a/VJ4yE3kfh9rW1z4roWvYpiznG)
 <br>
+How to run:
+1. Type 'wind-bot' and press enter
+2. Create a bot in Telegram according to the [manual (step 3)](https://core.telegram.org/bots)
+3. Register on [OpenWeather](https://home.openweathermap.org/users/sign_up) in order to get a token
+4. Type your tokens in the command line
+5. Chooce the city and push enter
+6. Try to send the message ('w' or 'wind') in your bot
+
+![Image alt](screenshots/run_wind_bot.jpg)
+
  
