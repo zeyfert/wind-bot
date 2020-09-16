@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "wind-bot"
-version = "0.1.0"
+version = "0.1.1"
 description = "Simple application for forecast of wind. Telegram Bot sends the diagram of the forecast to a chat"
 authors = ["Maxim Zeyfert <zeyfert.m@outlook.com>"]
 
@@ -12,6 +12,9 @@ requests = "^2.24.0"
 flake8 = "^3.8.3"
 
 [tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+wind-bot = "wind_bot.scripts.wind_bot:main"
 
 [build-system]
 requires = ["poetry>=0.12"]
